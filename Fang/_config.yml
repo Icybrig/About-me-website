@@ -1,0 +1,15 @@
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+theme: jekyll-theme-architect
+title: Liyang FANG
+description: About me, my eudcation and background
+google_analytics: UA-163147530-1
+logo: images/FANG_Photo.png
+logo1: images/FANG_Photo.png
+logo2: images/FANG_Photo.png
+photo: images/FANG_Photo.png
+currect_cv: cv/FANG_Data Analyst_French.pdf
+linkedin: https://www.linkedin.com/in/liyang-fang-322a34298/
+show_downloads: true
