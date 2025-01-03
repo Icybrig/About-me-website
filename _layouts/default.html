@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
@@ -23,6 +23,7 @@
   </head>
 
   <body>
+    <!-- Header -->
     <header>
       <div class="inner">
         <!-- Logo -->
@@ -32,50 +33,57 @@
         <!-- Title and Description -->
         <h1>{{ site.title }}</h1>
         <h2>{{ site.description }}</h2>
-
-        <!-- Navigation Links -->
-        <nav>
-          <ul class="nav-links">
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-
-        <!-- GitHub and LinkedIn Links -->
-        <a href="{{ site.github.owner_url }}" class="button">
-          <i class="fab fa-github" aria-hidden="true"></i>
-          <small>Follow me on</small> GitHub
-        </a>
-        <a href="{{ site.linkedin }}" class="button">
-          <i class="fab fa-linkedin" aria-hidden="true"></i>
-          <small>Connect on</small> LinkedIn
-        </a>
       </div>
     </header>
 
+    <!-- About Me Section -->
+    <section id="about-me" style="margin: 20px 0;">
+      <h2>About Me</h2>
+      <p>
+        I am a master's student in EPITA's Artificial Intelligence Systems program with a strong foundation in artificial intelligence, data science, and business transformation. My academic journey includes a Master’s in Artificial Intelligence Systems from EPITA and a dual Master’s in AI for Business Transformation from Skema Business School and ESIEA. Additionally, I hold a Bachelor’s degree in Theatre and Film Studies from the University of Bristol, where I developed expertise in filming technologies such as OBS Studio and Adobe InDesign. My academic background also includes advanced studies in mathematics and statistics during high school and university, including courses in Further Mathematics, Additional Mathematics, and STEP Mathematics within the A-Level system.
+
+        I specialize in designing and deploying data-driven solutions, integrating machine learning, and delivering actionable insights through innovative tools. My hands-on experience includes building real-time dashboards with Grafana, developing predictive models, and deploying applications using Docker, FastAPI, and PostgreSQL. These projects, detailed below, highlight my ability to bridge technical expertise with practical applications. My professional experience encompasses data cleaning, visualization, and business analysis, enabling me to drive growth and operational optimization effectively.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="margin: 20px 0;">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Project 1:</strong> Description of the first project. 
+          <a href="#">View Details</a>
+        </li>
+        <li>
+          <strong>Project 2:</strong> Description of the second project. 
+          <a href="#">View Details</a>
+        </li>
+        <li>
+          <strong>Project 3:</strong> Description of the third project. 
+          <a href="#">View Details</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Buttons Section -->
+    <div id="social-buttons" style="margin: 20px 0; display: flex; gap: 10px;">
+      <!-- GitHub Button -->
+      <a href="{{ site.github.owner_url }}" class="button" style="background-color: #333; color: #fff; padding: 10px 20px; text-decoration: none;">
+        <i class="fab fa-github" aria-hidden="true"></i>
+        Follow me on GitHub
+      </a>
+
+      <!-- LinkedIn Button -->
+      <a href="{{ site.linkedin }}" class="button" style="background-color: #0077b5; color: #fff; padding: 10px 20px; text-decoration: none;">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+        Connect on LinkedIn
+      </a>
+    </div>
+
+    <!-- Content Wrapper -->
     <div id="content-wrapper">
       <div class="inner clearfix">
-        <!-- Main Content -->
         <section id="main-content">
-          <!-- Projects Section -->
-          <section id="projects">
-            <h2>Projects</h2>
-            <ul class="project-list">
-              <li>
-                <h3>Project Title 1</h3>
-                <p>Description of Project 1. Include key details and technologies used.</p>
-                <a href="#" class="button">View Project</a>
-              </li>
-              <li>
-                <h3>Project Title 2</h3>
-                <p>Description of Project 2. Include key details and technologies used.</p>
-                <a href="#" class="button">View Project</a>
-              </li>
-            </ul>
-          </section>
-          
-          <!-- Content Placeholder -->
           {{ content }}
         </section>
 
@@ -97,17 +105,7 @@
 
     <!-- Footer -->
     <footer>
-      <div class="inner">
-        <nav>
-          <ul class="footer-links">
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-      </div>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
     </footer>
   </body>
 </html>
-
