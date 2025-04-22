@@ -35,16 +35,16 @@ My topics of interest are the following:
 <div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
   <h2>🛍️ Market Customer Data Analysis</h2>
   <p><strong>Tech Stack：</strong>Python, Pandas, Matplotlib, Seaborn</p>
-  <p>🔍 Exploratory Data Analysis: Identified trends in purchase frequency and customer demographics.
-
-     🧹 Data Cleaning: Handled missing values, outliers, and encoding of categorical variables.
-
-     📊 Visualization: Created charts to showcase purchase behavior across age and category.
-
-     🤖 Modeling: Trained a classification model to predict high-value customers.
-
-     📁 Modularization: Designed a flexible Python pipeline using config files and reusable modules.</p>
-  <p><strong>My Work：</strong>数据清洗、EDA、绘图、变量关联分析、客户行为建模</p>
+  <p><strong>Project Overview:</strong> This project aims to analyze customer data from a market to gain insights into purchasing behavior, demographics, and key customer segments.</p>
+  <p><strong>Key Tasks:</strong></p>
+  <ul>
+    <li>🔍 <strong>Exploratory Data Analysis (EDA):</strong> Identified trends in purchase frequency, customer demographics, and product preferences.</li>
+    <li>🧹 <strong>Data Cleaning:</strong> Handled missing values, outliers, and encoding of categorical variables.</li>
+    <li>📊 <strong>Visualization:</strong> Created visualizations to show purchase behavior across age and product categories.</li>
+    <li>🤖 <strong>Modeling:</strong> Trained a Random Forest Classifier to predict high-value customers.</li>
+    <li>📁 <strong>Modularization:</strong> Designed a flexible Python pipeline using config files and reusable modules for easier data analysis and scalability.</li>
+  </ul>
+  <p><strong>My Work：</strong>Data Cleansing, EDA, Visualisation, Variable Correlation Analysis, Customer Behaviour Modelling</p>
 
   <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
     <img src="images/customer_active_days_distribution.png" alt="Customer Active Days Distribution" style="width:100%; max-width:600px; border-radius: 8px;">
