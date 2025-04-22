@@ -12,7 +12,7 @@ Professionally, I specialize in data cleaning, visualization, and business analy
 
 **2021 - 2023**  [Skema Business School & ESIEA in Msc Artificial Intelligence for Business Transformation](https://www.esiea.fr/en/programmes/msc-artificial-intelligence-for-business-transformation-aibt-bac5/)
 
-**2018 - 2021**  [University of Bristol]
+**2018 - 2021**  University of Bristol
 
 My topics of interest are the following:
 
@@ -31,4 +31,29 @@ My topics of interest are the following:
 - A/B Testing & Hypothesis Testing: Applying statistical techniques to assess business strategies and optimize performance.
 
 # Projects
+
+<div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+  <h2>🛍️ Market Customer Data Analysis</h2>
+  <p><strong>Tech Stack：</strong>Python, Pandas, Matplotlib, Seaborn</p>
+  <p>🔍 Exploratory Data Analysis: Identified trends in purchase frequency and customer demographics.
+
+     🧹 Data Cleaning: Handled missing values, outliers, and encoding of categorical variables.
+
+     📊 Visualization: Created charts to showcase purchase behavior across age and category.
+
+     🤖 Modeling: Trained a classification model to predict high-value customers.
+
+     📁 Modularization: Designed a flexible Python pipeline using config files and reusable modules.</p>
+  <p><strong>My Work：</strong>数据清洗、EDA、绘图、变量关联分析、客户行为建模</p>
+
+  <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+    <img src="images/customer_active_days_distribution.png" alt="Customer Active Days Distribution" style="width:100%; max-width:600px; border-radius: 8px;">
+    <img src="images/confusion_matrix.png" alt="Performance of RandomForestClassifier" style="width:100%; max-width:600px; border-radius: 8px;">
+  </div>
+
+  <p style="margin-top: 15px;">
+    🔗 <a href="https://github.com/Icybrig/Market-Customer-Data-Analysis" target="_blank">Github Project Link</a>
+  </p>
+</div>
+
 
