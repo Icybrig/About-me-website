@@ -32,20 +32,20 @@ My topics of interest are the following:
 
 # Projects
 
-  **🛍️ Market Customer Data Analysis**
+  **Market Customer Data Analysis**
   Tech Stack：Python, Pandas, Matplotlib, Seaborn
   Project Overview: This project aims to analyze customer data from a market to gain insights into purchasing behavior, demographics, and key customer segments.
   Key Tasks:
   
-    🔍 Exploratory Data Analysis (EDA): Identified trends in purchase frequency, customer demographics, and product preferences.
-    🧹 Data Cleaning: Handled missing values, outliers, and encoding of categorical variables.
-    📊 Visualization: Created visualizations to show purchase behavior across age and product categories.
-    🤖 Modeling: Trained a Random Forest Classifier to predict high-value customers.
-    📁 Modularization:</strong> Designed a flexible Python pipeline using config files and reusable modules for easier data analysis and scalability.
+     Exploratory Data Analysis (EDA): Identified trends in purchase frequency, customer demographics, and product preferences.
+     Data Cleaning: Handled missing values, outliers, and encoding of categorical variables.
+     Visualization: Created visualizations to show purchase behavior across age and product categories.
+     Modeling: Trained a Random Forest Classifier to predict high-value customers.
+     Modularization:</strong> Designed a flexible Python pipeline using config files and reusable modules for easier data analysis and scalability.
 
   My Work：Data Cleansing, EDA, Visualisation, Variable Correlation Analysis, Customer Behaviour Modelling
 
-    🔗 [github.com/Icybrig/Market-Customer-Data-Analysis] (https://github.com/Icybrig/Market-Customer-Data-Analysis) Github Project Link
+     [github.com/Icybrig/Market-Customer-Data-Analysis] (https://github.com/Icybrig/Market-Customer-Data-Analysis) Github Project Link
 
 
 
