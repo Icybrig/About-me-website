@@ -32,28 +32,27 @@ My topics of interest are the following:
 
 # Projects
 
-<div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-  <h2>🛍️ Market Customer Data Analysis</h2>
-  <p><strong>Tech Stack：</strong>Python, Pandas, Matplotlib, Seaborn</p>
-  <p><strong>Project Overview:</strong> This project aims to analyze customer data from a market to gain insights into purchasing behavior, demographics, and key customer segments.</p>
-  <p><strong>Key Tasks:</strong></p>
-  <ul>
-    <li>🔍 <strong>Exploratory Data Analysis (EDA):</strong> Identified trends in purchase frequency, customer demographics, and product preferences.</li>
-    <li>🧹 <strong>Data Cleaning:</strong> Handled missing values, outliers, and encoding of categorical variables.</li>
-    <li>📊 <strong>Visualization:</strong> Created visualizations to show purchase behavior across age and product categories.</li>
-    <li>🤖 <strong>Modeling:</strong> Trained a Random Forest Classifier to predict high-value customers.</li>
-    <li>📁 <strong>Modularization:</strong> Designed a flexible Python pipeline using config files and reusable modules for easier data analysis and scalability.</li>
-  </ul>
-  <p><strong>My Work：</strong>Data Cleansing, EDA, Visualisation, Variable Correlation Analysis, Customer Behaviour Modelling</p>
+  **🛍️ Market Customer Data Analysis**
+  Tech Stack：Python, Pandas, Matplotlib, Seaborn
+  Project Overview: This project aims to analyze customer data from a market to gain insights into purchasing behavior, demographics, and key customer segments.
+  Key Tasks:
+  
+    🔍 Exploratory Data Analysis (EDA): Identified trends in purchase frequency, customer demographics, and product preferences.
+    🧹 Data Cleaning: Handled missing values, outliers, and encoding of categorical variables.
+    📊 Visualization: Created visualizations to show purchase behavior across age and product categories.
+    🤖 Modeling: Trained a Random Forest Classifier to predict high-value customers.
+    📁 Modularization:</strong> Designed a flexible Python pipeline using config files and reusable modules for easier data analysis and scalability.
 
-  <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
-    <img src="images/customer_active_days_distribution.png" alt="Customer Active Days Distribution" style="width:100%; max-width:600px; border-radius: 8px;">
-    <img src="images/confusion_matrix.png" alt="Performance of RandomForestClassifier" style="width:100%; max-width:600px; border-radius: 8px;">
+  My Work：Data Cleansing, EDA, Visualisation, Variable Correlation Analysis, Customer Behaviour Modelling
+
+  <div class="project-card">
+    <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+      <img src="{{ '/images/customer_active_days_distribution.png' | relative_url }}" alt="Customer Active Days Distribution">
+      <img src="{{ '/images/confusion_matrix.png' | relative_url }}" alt="Confusion Matrix">
+    </div>
   </div>
 
-  <p style="margin-top: 15px;">
-    🔗 <a href="https://github.com/Icybrig/Market-Customer-Data-Analysis" target="_blank">Github Project Link</a>
-  </p>
-</div>
+    🔗 [github.com/Icybrig/Market-Customer-Data-Analysis] (https://github.com/Icybrig/Market-Customer-Data-Analysis) Github Project Link
+
 
 
