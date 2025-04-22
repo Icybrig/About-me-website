@@ -45,13 +45,6 @@ My topics of interest are the following:
 
   My Work：Data Cleansing, EDA, Visualisation, Variable Correlation Analysis, Customer Behaviour Modelling
 
-  <div class="project-card">
-    <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
-      <img src="{{ '/images/customer_active_days_distribution.png' | relative_url }}" alt="Customer Active Days Distribution">
-      <img src="{{ '/images/confusion_matrix.png' | relative_url }}" alt="Confusion Matrix">
-    </div>
-  </div>
-
     🔗 [github.com/Icybrig/Market-Customer-Data-Analysis] (https://github.com/Icybrig/Market-Customer-Data-Analysis) Github Project Link
 
 
