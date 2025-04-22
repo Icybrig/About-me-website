@@ -1,22 +1,34 @@
 # About me
 
-I am a student in EPITA's master program in Artificial Intelligence System with a solid foundation in artificial intelligence, data science, and business transformation. My academic journey includes a Master's in Artificial Intelligence Systems from EPITA and a dual Master's from Skema Business School and ESIEA, equipping me with advanced technical and analytical skills. Also, I took Bachlor in University of Bristol with filming field which made me have strong abilities in filming technologies such as OBS Studio, Adobe Indesign. During the university and high school, I also participated the lessons for mathematics and statistics, such as Further math, Additional math and Step math in A-Level system.
+I am currently pursuing a Master's degree in Artificial Intelligence Systems at EPITA, with a strong academic foundation in AI, data science, and business transformation. My academic path also includes a dual Master’s program from SKEMA Business School and ESIEA, and a Bachelor's degree from the University of Bristol. During my high school and university years, I deepened my understanding of mathematics and statistics through courses such as Further Mathematics, Additional Mathematics, and STEP Mathematics within the A-Level system.
 
-Currently, I specialize in designing and deploying data solutions, integrating machine learning, and delivering actionable insights through innovative tools. My projects include building real-time dashboards using Grafana, developing predictive models, and deploying applications leveraging Docker, FastAPI, and PostgreSQL, which those projects you could find below. My professional experience spans data cleaning, visualization, and business analysis to drive growth and operational optimization.
+My expertise lies in designing and deploying end-to-end data solutions, integrating machine learning models, and transforming complex data into actionable insights. I am proficient in Python and SQL, which I use extensively for data manipulation, analysis, and automation. I also have solid experience in creating compelling data visualizations and dashboards using Power BI, Tableau, and InDesign, allowing me to effectively communicate insights to both technical and non-technical stakeholders. I have hands-on experience building real-time dashboards with Grafana, developing predictive analytics pipelines, and deploying scalable applications using Docker, FastAPI, and PostgreSQL.
+
+Professionally, I specialize in data cleaning, visualization, and business analysis aimed at driving operational efficiency and business growth. I am currently seeking a six-month internship as a Data Analyst, where I can continue to strengthen my skills in data processing, data mining, and data visualization.
 
 # Education
 
+**2023 - Today**  [EPITA in Msc Arificial Intelligence System](https://www.epita.fr/en/msc-artificial-intelligence-program-overview/)
+
+**2021 - 2023**  [Skema Business School & ESIEA in Msc Artificial Intelligence for Business Transformation](https://www.esiea.fr/en/programmes/msc-artificial-intelligence-for-business-transformation-aibt-bac5/)
+
+**2018 - 2021**  [University of Bristol]
+
 My topics of interest are the following:
- - ML 
- - 
- - 
- - 
 
-**2023 - Today** [EPITA in Msc Arificial Intelligence System](https://www.epita.fr/en/msc-artificial-intelligence-program-overview/)
+- Data Analysis & Visualization: Creating clear, impactful visualizations using Power BI, Tableau, Grafana, and InDesign to support data-driven decision-making.
 
-**2021 - 2023** [Skema Business School & ESIEA in Msc Artificial Intelligence for Business Transformation](https://www.esiea.fr/en/programmes/msc-artificial-intelligence-for-business-transformation-aibt-bac5/)
+- SQL & Data Manipulation: Writing efficient queries and performing complex data transformations for exploratory data analysis and reporting.
 
-**2018 - 2021**[University of Bristol in BA Film and Theatre Studies](https://www.bristol.ac.uk/study/undergraduate/2025/theatre/ba-theatre-and-film/#overview)
+- Python for Data Analysis: Using libraries such as Pandas, NumPy, and Matplotlib for data cleaning, preprocessing, and exploratory data analysis.
+
+- Machine Learning Models: Building and interpreting models such as Random Forests, Logistic Regression, and K-Means Clustering for predictive analytics and pattern recognition.
+
+- Business Intelligence: Translating business problems into data solutions and identifying KPIs to support performance tracking and operational improvement.
+
+- Data Pipelines & Automation: Designing data workflows using tools like PostgreSQL, Docker, and FastAPI for efficient data handling and reporting.
+
+- A/B Testing & Hypothesis Testing: Applying statistical techniques to assess business strategies and optimize performance.
 
 # Projects
 
