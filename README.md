@@ -50,7 +50,6 @@ My topics of interest are the following:
   <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
     <img src="images/customer_active_days_distribution.png" alt="Customer Active Days Distribution" style="width:100%; max-width:600px; border-radius: 8px;">
     <p><em>Figure 1: Distribution of active customer days showing frequency of customer interactions.</em></p>
-    
     <img src="images/confusion_matrix.png" alt="Performance of RandomForestClassifier" style="width:100%; max-width:600px; border-radius: 8px;">
     <p><em>Figure 2: Performance evaluation of the Random Forest Classifier based on confusion matrix metrics.</em></p>
   </div>
