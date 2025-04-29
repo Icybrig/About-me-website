@@ -59,6 +59,32 @@ My topics of interest are the following:
   </p>
 </div>
 
+<div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+  <h2>🚗 Automotive Market Sales Analysis</h2>
+  <p><strong>Tech Stack:</strong> Python, PostgreSQL, Pandas, Seaborn, FastAPI, Power BI</p>
+  <p><strong>Project Overview:</strong> This end-to-end project analyzes global automotive market data, comparing thermal and electric engine sales across brands and countries. It integrates SQL queries, data visualization, and an API layer for dashboarding with Power BI.</p>
 
+  <p><strong>Key Tasks:</strong></p>
+  <ul>
+    <li>🧹 <strong>Data Cleaning:</strong> Cleaned and standardized data from car specs and customer behavior datasets.</li>
+    <li>🔗 <strong>Database Integration:</strong> Created PostgreSQL schema and used Python (psycopg2) to insert cleaned data.</li>
+    <li>🧠 <strong>Business Querying:</strong> Wrote SQL queries to answer 5 core business questions around sales, brand performance, and engine types.</li>
+    <li>📊 <strong>Visualization:</strong> Visualized trends in engine popularity and brand dominance using Seaborn.</li>
+    <li>🌐 <strong>Power BI API:</strong> Built a FastAPI server to expose key SQL insights to Power BI via JSON endpoints.</li>
+  </ul>
+
+  <p><strong>My Role:</strong> I independently handled the full project pipeline, including data ingestion, SQL logic, visualization, and backend API development.</p>
+
+  <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+    <img src="images/Thermal vs Electric in Volume.png" alt="Thermal vs Electric Volume" style="width:100%; max-width:600px; border-radius: 8px;">
+    <p><em>Figure 1: Engine type distribution showing the popularity of electric vs thermal engines.</em></p>
+    <img src="images/Total Sales Thermal vs Electrical Yearly.png" alt="Sales Volume Over Years" style="width:100%; max-width:600px; border-radius: 8px;">
+    <p><em>Figure 2: Total sales volume comparison across years by engine type.</em></p>
+  </div>
+
+  <p style="margin-top: 15px;">
+    🔗 <a href="https://github.com/Icybrig/Automotive-Market-Sales-Analysis" target="_blank">View the project on GitHub</a>
+  </p>
+</div>
 
 
