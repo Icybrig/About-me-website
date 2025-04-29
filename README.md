@@ -87,4 +87,31 @@ My topics of interest are the following:
   </p>
 </div>
 
+<div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+  <h2>🧠 Black Friday Purchase Prediction (DSP Final Project)</h2>
+  <p><strong>Tech Stack:</strong> Apache Airflow, PostgreSQL, Python, FastAPI, Streamlit, Grafana</p>
+  <p><strong>Project Overview:</strong> A complete data engineering and analytics pipeline designed to predict customer purchasing behavior from Black Friday retail data. The project integrates real-time data workflows, predictive modeling, and interactive dashboards.</p>
+
+  <p><strong>Key Tasks:</strong></p>
+  <ul>
+    <li>📥 <strong>Data Ingestion:</strong> Used Apache Airflow to schedule and automate ETL workflows from raw CSV sources to PostgreSQL.</li>
+    <li>🧹 <strong>Data Cleaning:</strong> Preprocessed and transformed user demographics and purchase records using Pandas and custom scripts.</li>
+    <li>📈 <strong>Model Training:</strong> Built a machine learning model to predict user purchase amounts based on input features.</li>
+    <li>🖥 <strong>Dashboard Interface:</strong> Developed a Streamlit app to allow interactive exploration of prediction outcomes.</li>
+    <li>🧪 <strong>API Development:</strong> Served model predictions via FastAPI endpoints, enabling integration with external tools.</li>
+    <li>📊 <strong>Monitoring:</strong> Used Grafana to visualize database metrics and track system performance in real time.</li>
+  </ul>
+
+  <p><strong>My Role:</strong> I contributed to the full pipeline including data ingestion, modeling, API deployment, and dashboard development as part of a collaborative four-member team.</p>
+
+  <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+    <img src="images/black_friday/project-architecture.png" alt="DSP Project Architecture" style="width:100%; max-width:600px; border-radius: 8px;">
+    <p><em>Figure: High-level architecture of the data pipeline integrating ETL, model serving, and visualization tools.</em></p>
+  </div>
+
+  <p style="margin-top: 15px;">
+    🔗 <a href="https://github.com/callmeeric5/DSP_Final" target="_blank">View the project on GitHub</a>
+  </p>
+</div>
+
 
