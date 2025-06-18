@@ -120,7 +120,7 @@ My topics of interest are the following:
   
   <!-- Logo Audensiel en haut à droite -->
   <a href="https://www.audensiel.com" target="_blank" rel="noopener noreferrer">
-  <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="position: absolute; top: 60px; right: 20px; width: 100px; height: auto; object-fit: contain;">
+  <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="position: absolute; top: 100px; right: 20px; width: 100px; height: auto; object-fit: contain;">
   </a>
 
   
