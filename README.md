@@ -119,7 +119,7 @@ My topics of interest are the following:
 <div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); position: relative;">
   
   <!-- Logo Audensiel en haut à droite -->
-  <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="position: absolute; top: 20px; right: 20px; width: 100px; height: auto; object-fit: contain;">
+  <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="position: absolute; top: 60px; right: 20px; width: 100px; height: auto; object-fit: contain;">
   
   <h2>🧠 Projet Audensiel : Amélioration de la segmentation des lésions cérébrales</h2>
   
