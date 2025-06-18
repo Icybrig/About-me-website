@@ -1,10 +1,12 @@
 # About me
 
-I am currently pursuing a Master's degree in Artificial Intelligence Systems at EPITA, with a strong academic foundation in AI, data science, and business transformation. My academic path also includes a dual Master’s program from SKEMA Business School and ESIEA, and a Bachelor's degree from the University of Bristol. During my high school and university years, I deepened my understanding of mathematics and statistics through courses such as Further Mathematics, Additional Mathematics, and STEP Mathematics within the A-Level system.
+I am pursuing a Master's degree in Artificial Intelligence Systems at EPITA, with a strong academic foundation in AI, data science, and business transformation. My academic path also includes a dual Master’s program from SKEMA Business School and ESIEA, and a Bachelor's degree from the University of Bristol. During my high school and university years, I deepened my understanding of mathematics and statistics through courses such as Further Mathematics, Additional Mathematics, and STEP Mathematics within the A-Level system.
 
 My expertise lies in designing and deploying end-to-end data solutions, integrating machine learning models, and transforming complex data into actionable insights. I am proficient in Python and SQL, which I use extensively for data manipulation, analysis, and automation. I also have solid experience in creating compelling data visualizations and dashboards using Power BI, Tableau, and InDesign, allowing me to effectively communicate insights to both technical and non-technical stakeholders. I have hands-on experience building real-time dashboards with Grafana, developing predictive analytics pipelines, and deploying scalable applications using Docker, FastAPI, and PostgreSQL.
 
 Professionally, I specialize in data cleaning, visualization, and business analysis aimed at driving operational efficiency and business growth. I am currently seeking a six-month internship as a Data Analyst, where I can continue to strengthen my skills in data processing, data mining, and data visualization.
+
+Currently, I am working at Audensiel as an internship for 6 months starting from june. The subjective of this internship is to developing and evaluating the performance of U-Net architecture for Stroke Lesion Segmentation. 
 
 # Education
 
@@ -114,4 +116,43 @@ My topics of interest are the following:
   </p>
 </div>
 
+<div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); position: relative;">
+  
+  <!-- Logo Audensiel en haut à droite -->
+  <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="position: absolute; top: 20px; right: 20px; width: 100px; height: auto; object-fit: contain;">
+  
+  <h2>🧠 Projet Audensiel : Amélioration de la segmentation des lésions cérébrales</h2>
+  
+  <p><strong>Objectifs du stage :</strong></p>
+
+  <ul>
+    <li>🔍 <strong>Améliorer la précision de la segmentation :</strong>
+      <ul>
+        <li>Analyser les algorithmes existants (classiques et réseaux de neurones).</li>
+        <li>Développer des modèles d'apprentissage profond pour affiner la segmentation des AVC ischémiques et hémorragiques.</li>
+      </ul>
+    </li>
+
+    <li>⚙️ <strong>Optimisation pour la détection des petites lésions :</strong>
+      <ul>
+        <li>Adapter les algorithmes pour mieux détecter les petites lésions et anomalies subtiles.</li>
+      </ul>
+    </li>
+
+    <li>📈 <strong>Évaluation des modèles :</strong>
+      <ul>
+        <li>Tester sur bases de données cliniques IRM (IoU, sensibilité, spécificité...)</li>
+        <li>Comparer performances avec méthodes traditionnelles.</li>
+      </ul>
+    </li>
+
+    <li>🤖 <strong>Automatisation du processus :</strong>
+      <ul>
+        <li>Proposer des solutions pour automatiser la segmentation afin de réduire le temps de diagnostic et augmenter la fiabilité.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><strong>Mon rôle :</strong> Conduire l’analyse, développer et optimiser les modèles d’IA, évaluer leurs performances et proposer une solution automatisée fiable pour la segmentation des lésions cérébrales.</p>
+</div>
 
