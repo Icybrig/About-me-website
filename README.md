@@ -33,6 +33,28 @@ My topics of interest are the following:
 - A/B Testing & Hypothesis Testing: Applying statistical techniques to assess business strategies and optimize performance.
 
 # Projects
+<div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); position: relative;">
+  
+  <!-- Logo Audensiel en haut à droite -->
+  <a href="https://www.audensiel.com" target="_blank" rel="noopener noreferrer">
+  <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="position: absolute; top: 80px; right: 20px; width: 100px; height: auto; object-fit: contain;">
+  </a>
+  <h2>🧠 Data Scientist Intern - Audensiel : U-Net for Stroke Lesion Segmentation</h2>
+  <p><strong>Tech Stack:</strong> Python, PyTorch, MONAI, NiBabel, scikit-image, Albumentations, PostgreSQL, Gitlab</p>
+  <p><strong>Project Overview:</strong> Deep learning project focused on the segmentation of ischemic and hemorrhagic stroke lesions from brain MRI scans (ISLES 2022 dataset). The goal was to build, compare, and optimize segmentation models to improve lesion detection accuracy and support clinical analysis.</p>
+  </p>
+  <p><strong>Key Tasks:</strong></p>
+  <ul>
+    <li>🧹 <strong>Preprocessing & Augmentation:</strong> Normalized MRI volumes, filtered lesion-relevant slices, and applied spatial/intensity augmentations.</li>
+    <li>🧠 <strong>Model Development:</strong> Implemented and trained multiple segmentation models (U-Net, Attention U-Net, Efficient U-Net).</li>
+    <li>⚖️ <strong>Loss Functions:</strong> Experimented with Dice, BCE, and Tversky losses to handle strong class imbalance.</li>
+    <li>📊 <strong>Evaluation:</strong> Compared models using advanced metrics (Dice, IoU, Sensitivity, Specificity, Hausdorff Distance).</li>
+    <li>🖼 <strong>Predictions & Visualization:</strong> Generated segmentation masks and built visual comparisons between ground truth and predictions.</li>
+    <li>📝 <strong>Documentation & Reporting:</strong> Summarized results and presented progress to the AI & Healthcare team.</li>
+  </ul>
+
+  <p><strong>Mon rôle :</strong> Led the end-to-end workflow: preprocessing, model design, training, evaluation, and result visualization. Actively contributed insights on model optimization and regularly presented outcomes to the R&D team.</p>
+</div>
 
 <div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
   <h2>🛍️ Market Customer Data Analysis</h2>
@@ -114,48 +136,5 @@ My topics of interest are the following:
   <p style="margin-top: 15px;">
     🔗 <a href="https://github.com/callmeeric5/DSP_Final" target="_blank">View the project on GitHub</a>
   </p>
-</div>
-
-<div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); position: relative;">
-  
-  <!-- Logo Audensiel en haut à droite -->
-  <a href="https://www.audensiel.com" target="_blank" rel="noopener noreferrer">
-  <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="position: absolute; top: 80px; right: 20px; width: 100px; height: auto; object-fit: contain;">
-  </a>
-
-  
-  <h2>🧠 Projet Audensiel : Amélioration de la segmentation des lésions cérébrales</h2>
-  
-  <p><strong>Objectifs du stage :</strong></p>
-
-  <ul>
-    <li>🔍 <strong>Améliorer la précision de la segmentation :</strong>
-      <ul>
-        <li>Analyser les algorithmes existants (classiques et réseaux de neurones).</li>
-        <li>Développer des modèles d'apprentissage profond pour affiner la segmentation des AVC ischémiques et hémorragiques.</li>
-      </ul>
-    </li>
-
-    <li>⚙️ <strong>Optimisation pour la détection des petites lésions :</strong>
-      <ul>
-        <li>Adapter les algorithmes pour mieux détecter les petites lésions et anomalies subtiles.</li>
-      </ul>
-    </li>
-
-    <li>📈 <strong>Évaluation des modèles :</strong>
-      <ul>
-        <li>Tester sur bases de données cliniques IRM (IoU, sensibilité, spécificité...)</li>
-        <li>Comparer performances avec méthodes traditionnelles.</li>
-      </ul>
-    </li>
-
-    <li>🤖 <strong>Automatisation du processus :</strong>
-      <ul>
-        <li>Proposer des solutions pour automatiser la segmentation afin de réduire le temps de diagnostic et augmenter la fiabilité.</li>
-      </ul>
-    </li>
-  </ul>
-
-  <p><strong>Mon rôle :</strong> Conduire l’analyse, développer et optimiser les modèles d’IA, évaluer leurs performances et proposer une solution automatisée fiable pour la segmentation des lésions cérébrales.</p>
 </div>
 
