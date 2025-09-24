@@ -34,13 +34,19 @@ My topics of interest are the following:
 
 # Projects  
 <div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-  <div style="display: flex; justify-content: flex-end;">
-    <a href="https://www.audensiel.com" target="_blank" rel="noopener noreferrer">
+
+  <h2>🧠 Data Scientist Intern - Audensiel: U-Net for Stroke Lesion Segmentation</h2>
+
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px;">
+    <!-- Tech stack -->
+    <p style="margin: 0; flex: 1; line-height: 1.4;">
+      <strong>Tech Stack:</strong> Python, PyTorch, MONAI, NiBabel, scikit-image, Albumentations, PostgreSQL, Gitlab
+    </p>
+    <!-- Logo -->
+    <a href="https://www.audensiel.com" target="_blank" rel="noopener noreferrer" style="margin-left: 20px;">
       <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="width: 100px; height: auto; object-fit: contain;">
     </a>
   </div>
-  <h2>🧠 Data Scientist Intern - Audensiel : U-Net for Stroke Lesion Segmentation</h2>
-  <p><strong>Tech Stack:</strong> Python, PyTorch, MONAI, NiBabel, scikit-image, Albumentations, PostgreSQL, Gitlab</p>
   <p><strong>Project Overview:</strong> Deep learning project focused on the segmentation of ischemic and hemorrhagic stroke lesions from brain MRI scans (ISLES 2022 dataset). The goal was to build, compare, and optimize segmentation models to improve lesion detection accuracy and support clinical analysis.</p>
   <p><strong>Key Tasks:</strong></p>
   <ul>
