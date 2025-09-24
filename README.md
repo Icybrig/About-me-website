@@ -57,8 +57,37 @@ My topics of interest are the following:
     <li>🖼 <strong>Predictions & Visualization:</strong> Generated segmentation masks and built visual comparisons between ground truth and predictions.</li>
     <li>📝 <strong>Documentation & Reporting:</strong> Summarized results and presented progress to the AI & Healthcare team.</li>
   </ul>
-
   <p><strong>My Role :</strong> Led the end-to-end workflow: preprocessing, model design, training, evaluation, and result visualization. Actively contributed insights on model optimization and regularly presented outcomes to the R&D team.</p>
+</div>
+
+<div class="project-results" style="margin-top: 40px;">
+
+  <!-- Attention U-Net -->
+  <h3>Attention U-Net</h3>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <p><strong>Training Loss</strong></p>
+      <img src="images/audensiel/Training_graph_attentionunet.png" alt="Attention U-Net Training Loss" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    </div>
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <p><strong>Prediction</strong></p>
+      <img src="images/audensiel/Prediction_attentionunet.png" alt="Attention U-Net Prediction" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    </div>
+  </div>
+
+  <!-- Efficient U-Net -->
+  <h3 style="margin-top: 40px;">Efficient U-Net</h3>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <p><strong>Training Loss</strong></p>
+      <img src="images/audensiel/Training_graph_efficientunet.png" alt="Efficient U-Net Training Loss" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    </div>
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <p><strong>Prediction</strong></p>
+      <img src="images/audensiel/Prediction_efficientunet1.png" alt="Efficient U-Net Prediction" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <img src="images/audensiel/Prediction_efficientunet2.png" alt="Efficient U-Net Prediction" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    </div>
+  </div>
 </div>
 
 <div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
