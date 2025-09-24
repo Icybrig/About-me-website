@@ -40,9 +40,9 @@ My topics of interest are the following:
   <img src="images/audensiel/audensiel_logo.png" alt="Audensiel Logo" style="position: absolute; top: 80px; right: 20px; width: 100px; height: auto; object-fit: contain;">
   </a>
   <h2>🧠 Data Scientist Intern - Audensiel : U-Net for Stroke Lesion Segmentation</h2>
-  <p><strong>Tech Stack:</strong> Python, PyTorch, MONAI, NiBabel, scikit-image, Albumentations, PostgreSQL, Gitlab</p>
+  <p><strong>Tech Stack:</strong> Python, PyTorch, MONAI, NiBabel, scikit-image, Albumentations, 
+  PostgreSQL, Gitlab</p>
   <p><strong>Project Overview:</strong> Deep learning project focused on the segmentation of ischemic and hemorrhagic stroke lesions from brain MRI scans (ISLES 2022 dataset). The goal was to build, compare, and optimize segmentation models to improve lesion detection accuracy and support clinical analysis.</p>
-  </p>
   <p><strong>Key Tasks:</strong></p>
   <ul>
     <li>🧹 <strong>Preprocessing & Augmentation:</strong> Normalized MRI volumes, filtered lesion-relevant slices, and applied spatial/intensity augmentations.</li>
@@ -53,7 +53,7 @@ My topics of interest are the following:
     <li>📝 <strong>Documentation & Reporting:</strong> Summarized results and presented progress to the AI & Healthcare team.</li>
   </ul>
 
-  <p><strong>Mon rôle :</strong> Led the end-to-end workflow: preprocessing, model design, training, evaluation, and result visualization. Actively contributed insights on model optimization and regularly presented outcomes to the R&D team.</p>
+  <p><strong>My Role :</strong> Led the end-to-end workflow: preprocessing, model design, training, evaluation, and result visualization. Actively contributed insights on model optimization and regularly presented outcomes to the R&D team.</p>
 </div>
 
 <div class="project-card" style="margin-bottom: 40px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
