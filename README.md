@@ -1,10 +1,12 @@
 # About me
 
-I am pursuing a Master's degree in Artificial Intelligence Systems at EPITA, with a strong academic foundation in AI, data science, and business transformation. My academic path also includes a dual Master’s program from SKEMA Business School and ESIEA, and a Bachelor's degree from the University of Bristol. During my high school and university years, I deepened my understanding of mathematics and statistics through courses such as Further Mathematics, Additional Mathematics, and STEP Mathematics within the A-Level system.
+I am completing a Master’s degree in Artificial Intelligence Systems at EPITA, with a strong foundation in AI, data science, and business transformation. My academic path also includes a dual Master’s program from SKEMA Business School and ESIEA, as well as a Bachelor’s degree from the University of Bristol.
 
-My expertise lies in designing and deploying end-to-end data solutions, integrating machine learning models, and transforming complex data into actionable insights. I am proficient in Python and SQL, which I use extensively for data manipulation, analysis, and automation. I also have solid experience in creating compelling data visualizations and dashboards using Power BI, Tableau, and InDesign, allowing me to effectively communicate insights to both technical and non-technical stakeholders. I have hands-on experience building real-time dashboards with Grafana, developing predictive analytics pipelines, and deploying scalable applications using Docker, FastAPI, and PostgreSQL.
+Currently, I am working as a Data Scientist Intern at Audensiel (June–December 2025), where I focus on developing and evaluating deep learning models (U-Net architecture) for stroke lesion segmentation. This experience has strengthened my expertise in machine learning, neural networks, and medical image analysis.
 
-Currently, I am working at Audensiel as an internship for 6 months starting from june. The subjective of this internship is to developing and evaluating the performance of U-Net architecture for Stroke Lesion Segmentation. 
+My core skills include Python, SQL, and machine learning, as well as data visualization using Power BI, Tableau, Grafana, and InDesign. I also have hands-on experience with real-time dashboards, predictive analytics pipelines, and deploying scalable applications with Docker, FastAPI, and PostgreSQL.
+
+I am now seeking my first full-time opportunity as a Data Scientist or AI Engineer, where I can leverage my technical expertise, problem-solving skills, and business-oriented mindset to deliver impactful data-driven solutions.
 
 # Education
 
