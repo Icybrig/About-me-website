@@ -4,8 +4,6 @@ I am pursuing a Master's degree in Artificial Intelligence Systems at EPITA, wit
 
 My expertise lies in designing and deploying end-to-end data solutions, integrating machine learning models, and transforming complex data into actionable insights. I am proficient in Python and SQL, which I use extensively for data manipulation, analysis, and automation. I also have solid experience in creating compelling data visualizations and dashboards using Power BI, Tableau, and InDesign, allowing me to effectively communicate insights to both technical and non-technical stakeholders. I have hands-on experience building real-time dashboards with Grafana, developing predictive analytics pipelines, and deploying scalable applications using Docker, FastAPI, and PostgreSQL.
 
-Professionally, I specialize in data cleaning, visualization, and business analysis aimed at driving operational efficiency and business growth. I am currently seeking a six-month internship as a Data Analyst, where I can continue to strengthen my skills in data processing, data mining, and data visualization.
-
 Currently, I am working at Audensiel as an internship for 6 months starting from june. The subjective of this internship is to developing and evaluating the performance of U-Net architecture for Stroke Lesion Segmentation. 
 
 # Education
@@ -65,7 +63,7 @@ My topics of interest are the following:
   <!-- Attention U-Net -->
   <h3>Attention U-Net</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
-    <div style="flex: 1; min-width: 250px; text-align: center;">
+    <div style="flex: 1; text-align: center;">
       <p><strong>Training Loss</strong></p>
       <img src="images/audensiel/Training_graph_attentionunet.png" alt="Attention U-Net Training Loss" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     </div>
@@ -86,6 +84,20 @@ My topics of interest are the following:
       <p><strong>Prediction</strong></p>
       <img src="images/audensiel/Prediction_efficientunet1.png" alt="Efficient U-Net Prediction" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
       <img src="images/audensiel/Prediction_efficientunet2.png" alt="Efficient U-Net Prediction" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    </div>
+  </div>
+
+  <!-- U-Net ++ -->
+    <h3 style="margin-top: 40px;">U-Net ++</h3>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1 1 45%; text-align: center;">
+      <p><strong>Training Loss</strong></p>
+      <img src="images/audensiel/Training_graph_unet++.png" alt="U-Net ++ Training Loss" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    </div>
+    <div style="flex: 1 1 45%; text-align: center;">
+      <p><strong>Prediction</strong></p>
+      <img src="images/audensiel/Prediction_efficientunet1.png" alt="U-Net ++ Prediction" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <img src="images/audensiel/Prediction_efficientunet2.png" alt="U-Net ++ Prediction" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     </div>
   </div>
 </div>
