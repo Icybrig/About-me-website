@@ -64,28 +64,38 @@ My topics of interest are the following:
 
   <!-- Attention U-Net -->
   <h3>Attention U-Net</h3>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
-    <div style="flex: 1 1 45%; text-align: center;">
+  <div style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
+    <div style="text-align: center;">
       <p><strong>Training Loss</strong></p>
-      <img src="images/audensiel/Training_graph_attentionunet.png" alt="Attention U-Net Training Loss" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <img src="images/audensiel/Training_graph_attentionunet.png" 
+          alt="Attention U-Net Training Loss" 
+          style="width: 100%; max-width: 700px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     </div>
-    <div style="flex: 1 1 45%; text-align: center;">
+    <div style="text-align: center;">
       <p><strong>Prediction</strong></p>
-      <img src="images/audensiel/Prediction_attentionunet.png" alt="Attention U-Net Prediction" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <img src="images/audensiel/Prediction_attentionunet.png" 
+          alt="Attention U-Net Prediction" 
+          style="width: 100%; max-width: 700px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     </div>
   </div>
 
   <!-- Efficient U-Net -->
   <h3 style="margin-top: 40px;">Efficient U-Net</h3>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
-    <div style="flex: 1 1 45%; text-align: center;">
+  <div style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
+    <div style="text-align: center;">
       <p><strong>Training Loss</strong></p>
-      <img src="images/audensiel/Training_graph_efficientunet.png" alt="Efficient U-Net Training Loss" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <img src="images/audensiel/Training_graph_efficientunet.png" 
+          alt="Efficient U-Net Training Loss" 
+          style="width: 100%; max-width: 700px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     </div>
-    <div style="flex: 1 1 45%; text-align: center;">
+    <div style="text-align: center;">
       <p><strong>Prediction</strong></p>
-      <img src="images/audensiel/Prediction_efficientunet1.png" alt="Efficient U-Net Prediction" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-      <img src="images/audensiel/Prediction_efficientunet2.png" alt="Efficient U-Net Prediction" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <img src="images/audensiel/Prediction_efficientunet1.png" 
+          alt="Efficient U-Net Prediction" 
+          style="width: 100%; max-width: 700px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <img src="images/audensiel/Prediction_efficientunet2.png" 
+          alt="Efficient U-Net Prediction 2" 
+          style="width: 100%; max-width: 700px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-top: 15px;">
     </div>
   </div>
 
