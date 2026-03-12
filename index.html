@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Liyang FANG — Data Scientist. MSc AI at EPITA. Python, PyTorch, SQL.">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="icon" href="data:,">
+  <title>Liyang FANG — Data Scientist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="navbar">
+  <div class="nav-inner">
+    <a href="#about" class="nav-logo">LF</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+    </ul>
+    <a href="cv/Liyang_FANG_CV.pdf" class="btn btn-primary" download>Download CV</a>
+  </div>
+</nav>
+  <main>
+    <section id="about" class="hero">
+  <div class="container">
+    <img src="images/FANG_Photo.png" alt="Liyang FANG" class="hero-avatar">
+    <p class="hero-role">Data Scientist</p>
+    <h1 class="hero-name">Liyang FANG</h1>
+    <p class="hero-pitch">
+      MSc Artificial Intelligence at EPITA · Deep learning for medical imaging (U-Net, stroke lesion segmentation) ·
+      Seeking a first full-time Data Scientist role in France.
+    </p>
+    <ul class="tag-list">
+      <li class="tag">Python</li>
+      <li class="tag">PyTorch</li>
+      <li class="tag">SQL</li>
+      <li class="tag">FastAPI</li>
+      <li class="tag">Power BI</li>
+      <li class="tag">Docker</li>
+    </ul>
+    <div class="hero-ctas">
+      <a href="cv/Liyang_FANG_CV.pdf" class="btn btn-primary" download>⬇ Download CV</a>
+      <a href="#projects" class="btn btn-outline">See Projects ↓</a>
+      <a href="https://www.linkedin.com/in/liyang-fang-322a34298/" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Icybrig" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+    <section id="projects">
+  <div class="container">
+    <p class="section-label">Featured Work</p>
+    <h2 class="section-title">Projects</h2>
+
+    <!-- Featured project -->
+    <div class="project-card project-card--featured">
+      <div class="project-card-header">
+        <div>
+          <h3 class="project-title">🧠 U-Net Stroke Lesion Segmentation</h3>
+          <p class="project-meta">Deep learning for medical imaging — ISLES 2022 dataset</p>
+        </div>
+        <span class="project-badge">Internship @ Audensiel</span>
+      </div>
+      <p class="project-desc">
+        Built and compared segmentation models (U-Net, Attention U-Net, U-Net++) to detect ischemic and hemorrhagic stroke lesions from brain MRI scans. Evaluated with Dice, IoU, Hausdorff Distance. Handled preprocessing, augmentation, training, and reporting.
+      </p>
+      <ul class="tag-list tag-list--left">
+        <li class="tag tag--dim">Python</li>
+        <li class="tag tag--dim">PyTorch</li>
+        <li class="tag tag--dim">MONAI</li>
+        <li class="tag tag--dim">NiBabel</li>
+        <li class="tag tag--dim">Albumentations</li>
+        <li class="tag tag--dim">PostgreSQL</li>
+        <li class="tag tag--dim">GitLab</li>
+      </ul>
+      <div class="project-images">
+        <figure>
+          <img src="images/audensiel/Training_graph_attentionunet.png" alt="Attention U-Net training loss">
+          <figcaption>Attention U-Net — Training Loss</figcaption>
+        </figure>
+        <figure>
+          <img src="images/audensiel/Prediction_attentionunet.png" alt="Attention U-Net prediction">
+          <figcaption>Attention U-Net — Prediction vs Ground Truth</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- Project grid -->
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3 class="project-title">🛍️ Market Customer Data Analysis</h3>
+        <p class="project-desc">EDA + Random Forest Classifier on retail data to identify high-value customers. Modular Python pipeline with config-driven analysis.</p>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">Python</li>
+          <li class="tag tag--dim">Pandas</li>
+          <li class="tag tag--dim">Matplotlib</li>
+          <li class="tag tag--dim">Seaborn</li>
+        </ul>
+        <a href="https://github.com/Icybrig/Market-Customer-Data-Analysis" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">🚗 Automotive Market Sales Analysis</h3>
+        <p class="project-desc">End-to-end pipeline analysing global car sales (thermal vs electric). SQL business queries, Seaborn visualisations, FastAPI endpoints for Power BI.</p>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">PostgreSQL</li>
+          <li class="tag tag--dim">FastAPI</li>
+          <li class="tag tag--dim">Power BI</li>
+          <li class="tag tag--dim">Seaborn</li>
+        </ul>
+        <a href="https://github.com/Icybrig/Automotive-Market-Sales-Analysis" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+      <div class="project-card project-card--wide">
+        <h3 class="project-title">🧠 Black Friday Purchase Prediction</h3>
+        <p class="project-desc">Complete data engineering pipeline: Airflow ETL from CSV → PostgreSQL → ML prediction model → FastAPI endpoints → Streamlit app → Grafana monitoring. Built as a 4-person team.</p>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">Apache Airflow</li>
+          <li class="tag tag--dim">PostgreSQL</li>
+          <li class="tag tag--dim">FastAPI</li>
+          <li class="tag tag--dim">Streamlit</li>
+          <li class="tag tag--dim">Grafana</li>
+        </ul>
+        <a href="https://github.com/callmeeric5/DSP_Final" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section id="experience">
+  <div class="container">
+    <p class="section-label">Background</p>
+    <h2 class="section-title">Experience &amp; Education</h2>
+    <ul class="timeline">
+
+      <li class="timeline-item timeline-item--work">
+        <span class="timeline-date">Jun 2025 – Dec 2025</span>
+        <h3 class="timeline-title">Data Scientist Intern — Audensiel</h3>
+        <p class="timeline-desc">Deep learning for medical image segmentation. Developed U-Net, Attention U-Net, and U-Net++ models for ischemic and hemorrhagic stroke lesion detection (ISLES 2022 dataset). Evaluated models with Dice, IoU, Hausdorff Distance. Presented results to the AI &amp; Healthcare R&amp;D team.</p>
+      </li>
+
+      <li class="timeline-item">
+        <span class="timeline-date">2023 – Present</span>
+        <h3 class="timeline-title">MSc Artificial Intelligence Systems — EPITA, Paris</h3>
+        <p class="timeline-desc">Focus: machine learning, neural networks, data engineering, computer vision.</p>
+      </li>
+
+      <li class="timeline-item">
+        <span class="timeline-date">2021 – 2023</span>
+        <h3 class="timeline-title">MSc AI for Business Transformation — SKEMA Business School / ESIEA</h3>
+        <p class="timeline-desc">Dual degree combining AI engineering and business strategy.</p>
+      </li>
+
+      <li class="timeline-item">
+        <span class="timeline-date">2018 – 2021</span>
+        <h3 class="timeline-title">BSc — University of Bristol</h3>
+      </li>
+
+    </ul>
+  </div>
+</section>
+    <section id="skills">
+  <div class="container">
+    <p class="section-label">Toolkit</p>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Languages</h3>
+        <ul class="tag-list tag-list--left">
+          <li class="tag">Python</li>
+          <li class="tag">SQL</li>
+          <li class="tag">R</li>
+          <li class="tag">C</li>
+          <li class="tag">Java</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Data Analysis</h3>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">Pandas</li>
+          <li class="tag tag--dim">NumPy</li>
+          <li class="tag tag--dim">SciPy</li>
+          <li class="tag tag--dim">Matplotlib</li>
+          <li class="tag tag--dim">Seaborn</li>
+          <li class="tag tag--dim">Jupyter Notebook</li>
+        </ul>
+      </div>
+
+      <div class="skill-group skill-group--wide">
+        <h3 class="skill-group-title">ML / Deep Learning</h3>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">PyTorch</li>
+          <li class="tag tag--dim">TensorFlow</li>
+          <li class="tag tag--dim">Keras</li>
+          <li class="tag tag--dim">scikit-learn</li>
+          <li class="tag tag--dim">MONAI</li>
+          <li class="tag tag--dim">scikit-image</li>
+          <li class="tag tag--dim">Albumentations</li>
+          <li class="tag tag--dim">NiBabel</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Data Viz &amp; BI</h3>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">Power BI</li>
+          <li class="tag tag--dim">Tableau</li>
+          <li class="tag tag--dim">Grafana</li>
+          <li class="tag tag--dim">InDesign</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Databases &amp; Big Data</h3>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">PostgreSQL</li>
+          <li class="tag tag--dim">PySpark</li>
+          <li class="tag tag--dim">Apache Spark</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Cloud</h3>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">AWS</li>
+          <li class="tag tag--dim">Azure</li>
+        </ul>
+      </div>
+
+      <div class="skill-group skill-group--wide">
+        <h3 class="skill-group-title">Tools &amp; Infrastructure</h3>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">FastAPI</li>
+          <li class="tag tag--dim">Docker</li>
+          <li class="tag tag--dim">Apache Airflow</li>
+          <li class="tag tag--dim">Streamlit</li>
+          <li class="tag tag--dim">GitLab</li>
+          <li class="tag tag--dim">Git</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+  </main>
+  <footer id="footer">
+  <div class="footer-inner">
+    <span class="footer-copy">© 2026 Liyang FANG</span>
+    <nav class="footer-links">
+      <a href="https://www.linkedin.com/in/liyang-fang-322a34298/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Icybrig" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:liyang.fang@epita.fr">Contact</a>
+    </nav>
+  </div>
+</footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
