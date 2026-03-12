@@ -46,7 +46,87 @@
     </div>
   </div>
 </section>
-    <section id="projects"><!-- Task 4 --></section>
+    <section id="projects">
+  <div class="container">
+    <p class="section-label">Featured Work</p>
+    <h2 class="section-title">Projects</h2>
+
+    <!-- Featured project -->
+    <div class="project-card project-card--featured">
+      <div class="project-card-header">
+        <div>
+          <h3 class="project-title">🧠 U-Net Stroke Lesion Segmentation</h3>
+          <p class="project-meta">Deep learning for medical imaging — ISLES 2022 dataset</p>
+        </div>
+        <span class="project-badge">Internship @ Audensiel</span>
+      </div>
+      <p class="project-desc">
+        Built and compared segmentation models (U-Net, Attention U-Net, U-Net++) to detect ischemic and hemorrhagic stroke lesions from brain MRI scans. Evaluated with Dice, IoU, Hausdorff Distance. Handled preprocessing, augmentation, training, and reporting.
+      </p>
+      <ul class="tag-list tag-list--left">
+        <li class="tag tag--dim">Python</li>
+        <li class="tag tag--dim">PyTorch</li>
+        <li class="tag tag--dim">MONAI</li>
+        <li class="tag tag--dim">NiBabel</li>
+        <li class="tag tag--dim">Albumentations</li>
+        <li class="tag tag--dim">PostgreSQL</li>
+        <li class="tag tag--dim">GitLab</li>
+      </ul>
+      <div class="project-images">
+        <figure>
+          <img src="images/audensiel/Training_graph_attentionunet.png" alt="Attention U-Net training loss">
+          <figcaption>Attention U-Net — Training Loss</figcaption>
+        </figure>
+        <figure>
+          <img src="images/audensiel/Prediction_attentionunet.png" alt="Attention U-Net prediction">
+          <figcaption>Attention U-Net — Prediction vs Ground Truth</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- Project grid -->
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3 class="project-title">🛍️ Market Customer Data Analysis</h3>
+        <p class="project-desc">EDA + Random Forest Classifier on retail data to identify high-value customers. Modular Python pipeline with config-driven analysis.</p>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">Python</li>
+          <li class="tag tag--dim">Pandas</li>
+          <li class="tag tag--dim">Matplotlib</li>
+          <li class="tag tag--dim">Seaborn</li>
+        </ul>
+        <a href="https://github.com/Icybrig/Market-Customer-Data-Analysis" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">🚗 Automotive Market Sales Analysis</h3>
+        <p class="project-desc">End-to-end pipeline analysing global car sales (thermal vs electric). SQL business queries, Seaborn visualisations, FastAPI endpoints for Power BI.</p>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">PostgreSQL</li>
+          <li class="tag tag--dim">FastAPI</li>
+          <li class="tag tag--dim">Power BI</li>
+          <li class="tag tag--dim">Seaborn</li>
+        </ul>
+        <a href="https://github.com/Icybrig/Automotive-Market-Sales-Analysis" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+      <div class="project-card project-card--wide">
+        <h3 class="project-title">🧠 Black Friday Purchase Prediction</h3>
+        <p class="project-desc">Complete data engineering pipeline: Airflow ETL from CSV → PostgreSQL → ML prediction model → FastAPI endpoints → Streamlit app → Grafana monitoring. Built as a 4-person team.</p>
+        <ul class="tag-list tag-list--left">
+          <li class="tag tag--dim">Apache Airflow</li>
+          <li class="tag tag--dim">PostgreSQL</li>
+          <li class="tag tag--dim">FastAPI</li>
+          <li class="tag tag--dim">Streamlit</li>
+          <li class="tag tag--dim">Grafana</li>
+        </ul>
+        <a href="https://github.com/callmeeric5/DSP_Final" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
     <section id="experience"><!-- Task 5 --></section>
     <section id="skills"><!-- Task 6 --></section>
   </main>
