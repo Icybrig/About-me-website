@@ -393,3 +393,26 @@ section {
 }
 
 .footer-links a:hover { color: var(--text); }
+
+/* ── Responsive ─────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* Navbar */
+  .nav-links { display: none; }
+
+  /* Hero */
+  .hero { padding: 64px 0 56px; }
+  .hero-ctas { flex-direction: column; align-items: center; }
+  .hero-ctas .btn { width: 100%; max-width: 280px; justify-content: center; }
+
+  /* Projects */
+  .project-grid { grid-template-columns: 1fr; }
+  .project-card--wide { grid-column: auto; }
+  .project-images { grid-template-columns: 1fr; }
+
+  /* Skills */
+  .skills-grid { grid-template-columns: 1fr; }
+  .skill-group--wide { grid-column: auto; }
+
+  /* Footer */
+  .footer-inner { flex-direction: column; text-align: center; }
+}
