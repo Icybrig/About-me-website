@@ -97,3 +97,92 @@ ul { list-style: none; }
   color: var(--muted);
   border: 1px solid var(--border);
 }
+
+/* ── Shared layout ──────────────────────────────────── */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+section {
+  padding: 80px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-label {
+  color: var(--accent);
+  font-size: 0.6875rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.section-title {
+  color: var(--text);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+/* ── Hero ───────────────────────────────────────────── */
+.hero { text-align: center; padding: 96px 0 80px; }
+
+.hero-avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  margin: 0 auto 20px;
+}
+
+.hero-role {
+  color: var(--muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.hero-name {
+  color: var(--text);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+}
+
+.hero-pitch {
+  color: var(--muted);
+  font-size: 0.9375rem;
+  max-width: 520px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+
+/* ── Tag list (skill chips) ─────────────────────────── */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.tag {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--accent-lt);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+/* ── Hero CTAs ──────────────────────────────────────── */
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
