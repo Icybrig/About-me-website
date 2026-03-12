@@ -285,3 +285,111 @@ section {
 }
 
 .project-card--wide { grid-column: 1 / -1; }
+
+/* ── Timeline ───────────────────────────────────────── */
+.timeline {
+  border-left: 2px solid var(--surface);
+  padding-left: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -35px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--border);
+  border: 2px solid var(--bg);
+}
+
+.timeline-item--work::before {
+  background: var(--accent);
+}
+
+.timeline-date {
+  color: var(--accent);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.timeline-item:not(.timeline-item--work) .timeline-date {
+  color: var(--subtle);
+}
+
+.timeline-title {
+  color: var(--text);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.timeline-desc {
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+/* ── Skills ─────────────────────────────────────────── */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.skill-group--wide { grid-column: 1 / -1; }
+
+.skill-group-title {
+  color: var(--subtle);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--surface);
+}
+
+/* ── Footer ─────────────────────────────────────────── */
+#footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+}
+
+.footer-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-copy {
+  color: var(--subtle);
+  font-size: 0.8125rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: var(--subtle);
+  font-size: 0.8125rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover { color: var(--text); }
